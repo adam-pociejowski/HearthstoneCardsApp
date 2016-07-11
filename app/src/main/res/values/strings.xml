@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">HearthstoneCardsApp</string>
+    <string name="allCardsButton">ALL CARDS</string>
+    <string name="myFavoriteButtun">FAVORITE CARDS</string>
+    <string name="customOptionsButton">ADVANCED SEARCH</string>
+    <string name="title_activity_cards_list">CardsListActivity</string>
+
+    <!-- ListView Labels -->
+    <string name="idField">ID</string>
+    <string name="nameField">NAME</string>
+    <string name="costField">MANA</string>
+    <string name="gettingCardsLabel">Getting cards...</string>
+    <string name="checkInternetAlert">No results received, check your Internet connection</string>
+
+    <!-- Card Presentation Fields -->
+    <string name="cardIdField">ID:</string>
+    <string name="cardNameField">NAME:</string>
+    <string name="cardTypeField">TYPE:</string>
+    <string name="cardRarityField">RARITY:</string>
+    <string name="cardManaCostField">MANA COST:</string>
+    <string name="cardClassField">CLASS:</string>
+    <string name="backToMainMenu">MAIN MENU</string>
+    <string name="addToFavorites">ADD</string>
+    <string name="deleteFromFavorites">REMOVE</string>
+
+    <string name="advancedSearchLabel">ADVANCED SEARCH</string>
+    <string name="advancedSearchButton">SEARCH</string>
+
+    <string name="searchByName">SEARCH BY NAME</string>
+    <string name="searchByClass">SEARCH BY CLASS</string>
+    <string name="searchByType">SEARCH BY TYPE</string>
+
+    <string-array name="classes">
+        <item>Druid</item>
+        <item>Hunter</item>
+        <item>Mage</item>
+        <item>Paladin</item>
+        <item>Priest</item>
+        <item>Rogue</item>
+        <item>Shaman</item>
+        <item>Warlock</item>
+        <item>Warrior</item>
+    </string-array>
+
+    <string-array name="types">
+        <item>Spell</item>
+        <item>Minion</item>
+        <item>Enchantment</item>
+        <item>Weapon</item>
+    </string-array>
+</resources>

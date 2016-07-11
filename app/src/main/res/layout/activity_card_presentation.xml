@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/lightIndigo"
+    tools:context="com.example.valverde.hearthstonecardsapp.CardPresentationActivity">
+
+   <TextView android:id="@+id/cardNameField"
+       style="@style/labelText"
+       android:layout_marginTop="30dp"
+       android:layout_gravity="center"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:text="@string/cardIdField"
+            style="@style/tinyLabelText"
+            android:layout_weight="40"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/cardIdField"
+            style="@style/tinyLabelText"
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:text="@string/cardTypeField"
+            style="@style/tinyLabelText"
+            android:layout_weight="40"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/cardTypeField"
+            style="@style/tinyLabelText"
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:text="@string/cardRarityField"
+            style="@style/tinyLabelText"
+            android:layout_weight="40"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/cardRarityField"
+            style="@style/tinyLabelText"
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:text="@string/cardManaCostField"
+            style="@style/tinyLabelText"
+            android:layout_weight="40"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/cardManaCostField"
+            style="@style/tinyLabelText"
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:text="@string/cardClassField"
+            style="@style/tinyLabelText"
+            android:layout_weight="40"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/cardClassField"
+            style="@style/tinyLabelText"
+            android:layout_weight="50"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button android:id="@+id/backToMainMemuButton"
+            style="@style/mainMenuButtonStyle"
+            android:text="@string/backToMainMenu"
+            android:layout_weight="30"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <View android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/addToFavoriteButton"
+            style="@style/mainMenuButtonStyle"
+            android:text="@string/addToFavorites"
+            android:layout_weight="30"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
